@@ -1,4 +1,4 @@
-import { createClient } from 'contentful';
+//import { createClient } from 'contentful';
 import contentful from 'contentful';
 
 const config = {
@@ -6,7 +6,7 @@ const config = {
 	accessToken: import.meta.env.VITE_CONTENTFUL_DELIVERY_API_TOKEN
 };
 
-const createClientFunc =
-	process.env.NODE_ENV === 'development' ? createClient : contentful.createClient;
+// const createClientFunc =
+// 	process.env.NODE_ENV === 'development' ? createClient : contentful.createClient;
 
-export const client = createClientFunc(config);
+export const client = contentful.createClient(config);
