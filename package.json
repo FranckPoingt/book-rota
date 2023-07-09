@@ -34,7 +34,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sanity/client": "^6.1.6",
+		"contentful": "^10.3.1",
 		"lucide-svelte": "^0.258.0"
 	}
 }

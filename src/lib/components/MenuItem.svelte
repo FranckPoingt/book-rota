@@ -11,10 +11,10 @@
 		{tabindex}
 		class="movie-border w-full py-8 cursor-pointer flex flex-row justify-between items-center"
 	>
-		<span class="text-6xl font-bold mx-8">
+		<span class="text-2xl sm:text-4xl md:text-6xl font-bold mx-8">
 			{name}
 		</span>
-		<Play class="mr-12" size={48} color="#fff" />
+		<Play class="mr-12 md:text-6xl" color="#fff" />
 	</div>
 </a>
 
